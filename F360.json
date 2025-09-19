@@ -979,22 +979,14 @@
                 "LB": 2,
                 "LCF": 0.25,
                 "NOF": 2,
-                "NT": 0,
                 "OAL": 2,
-                "RE": 0,
                 "SFDM": 0.25,
                 "SIG": 90,
-                "TA": 0,
-                "TP": 0,
                 "assemblyGaugeLength": 2,
                 "shoulder-length": 0.5,
-                "thread-profile-angle": 0,
-                "tip-diameter": 0.0175,
-                "tip-length": 0,
-                "tip-offset": 0
+                "tip-diameter": 0.0175
             },
             "guid": "bc12d051-0131-4935-9cc8-b119dbded310",
-            "last_modified": 1758050000080,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1007,12 +999,10 @@
             },
             "product-id": "301",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
                         "description": "",
-                        "f_n": 0.0012,
                         "f_z": 0.001,
                         "guid": "d8193c20-4f73-9f07-235c-af81c39979df",
                         "material": {
@@ -1021,7 +1011,6 @@
                             "use-hardness": false
                         },
                         "n": 10000,
-                        "n_ramp": 10000,
                         "name": "Default Preset",
                         "tool-coolant": "disabled",
                         "use-feed-per-revolution": false,
@@ -1039,6 +1028,1524 @@
             "type": "spot drill",
             "unit": "inches",
             "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "IDC Woodcraft \"THE BEAST\" 1/4\" Roughing Upcut ",
+            "expressions": {
+                "tool_comment": "'If you’re tired of spending hours while you wait on your CNC router to remove material from your CNC woodworking projects, then you’ve come to the right bit.  Welcome to the aptly nicknamed \"BEAST\", a 1/4\" hyper-speed CNC router bit from IDC Woodcraft, the ultimate solution for lightning-fast material removal.'",
+                "tool_description": "'IDC Woodcraft \"THE BEAST\" 1/4\" Roughing Upcut '",
+                "tool_fluteLength": "1 in",
+                "tool_overallLength": "2.5 in",
+                "tool_productId": "'BEAST'",
+                "tool_productLink": "'https://idcwoodcraft.com/BEAST'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.8,
+                "LCF": 1,
+                "NOF": 3,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.8,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1.7
+            },
+            "guid": "9c40bef1-cf75-4902-b8bd-ea65a0f69c57",
+            "post-process": {
+                "break-control": false,
+                "comment": "If you’re tired of spending hours while you wait on your CNC router to remove material from your CNC woodworking projects, then you’ve come to the right bit.  Welcome to the aptly nicknamed \"BEAST\", a 1/4\" hyper-speed CNC router bit from IDC Woodcraft, the ultimate solution for lightning-fast material removal.",
+                "diameter-offset": 12,
+                "length-offset": 12,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 12,
+                "turret": 0
+            },
+            "product-id": "BEAST",
+            "product-link": "https://idcwoodcraft.com/BEAST",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "100 inpm",
+                            "tool_feedPlunge": "80 inpm",
+                            "tool_feedRamp": "80 inpm",
+                            "tool_spindleSpeed": "22000 rpm",
+                            "tool_stepdown": "0.75 in",
+                            "tool_stepover": "0.2 in"
+                        },
+                        "f_n": 0.003636363636363635,
+                        "f_z": 0.0015151515151515152,
+                        "guid": "e6bcbba4-e718-4157-8549-975415e28b88",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 22000,
+                        "n_ramp": 22000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "stepdown": 0.75,
+                        "stepover": 0.2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1439.8966328953218,
+                        "v_f": 100,
+                        "v_f_leadIn": 100,
+                        "v_f_leadOut": 100,
+                        "v_f_plunge": 80,
+                        "v_f_ramp": 80,
+                        "v_f_transition": 100
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "IDC Woodcraft"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "IDC Woodcraft 1/8\" Radius Round Over",
+            "expressions": {
+                "tool_description": "'IDC Woodcraft 1/8\" Radius Round Over'",
+                "tool_number": "106"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.005,
+                "HAND": true,
+                "LB": 0.75,
+                "LCF": 0.125,
+                "NOF": 2,
+                "OAL": 1.9,
+                "RE": 0.125,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 0.75,
+                "shoulder-diameter": 0.255,
+                "shoulder-length": 0.3,
+                "tip-length": 0
+            },
+            "guid": "9822e2ca-82c0-4af9-9596-53024ab93b82",
+            "post-process": {
+                "break-control": false,
+                "comment": "Round the borders of signs, or letters. It doesn’t matter, as long as you have 1/8″ to play with on your project, this cutter will add a gentle softness to your CNC projects. to your woodworking CNC project that gives it the extra character to make it stand out.",
+                "diameter-offset": 106,
+                "length-offset": 106,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 106,
+                "turret": 0
+            },
+            "product-id": "RO-18",
+            "product-link": "https://idcwoodcraft.com/products/1-8-radius-edge-rounding-bit-for-cnc-routers-1-4-shank?ref=app",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0011764705882352942,
+                        "f_z": 0.0017647058823529417,
+                        "guid": "e6bcbba4-e718-4157-8549-975415e28b88",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 17000,
+                        "n_ramp": 17000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "stepdown": 0.095,
+                        "stepover": 0.02,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 22.2529479629277,
+                        "v_f": 60.000000000000014,
+                        "v_f_leadIn": 60.000000000000014,
+                        "v_f_leadOut": 60.000000000000014,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 60.000000000000014
+                    }
+                ]
+            },
+            "type": "radius mill",
+            "unit": "inches",
+            "vendor": "IDC Woodcraft"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool A02005 CNC SC Spiral Aluminum Cutting 1/4\" Dia x 1-1/2\" Cutting Length x 1/4\" Shank x 3-1/2\" Extra Long 3 Flute Up Cut Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool A02005 CNC SC Spiral Aluminum Cutting 1/4\" Dia x 1-1/2\" Cutting Length x 1/4\" Shank x 3-1/2\" Extra Long 3 Flute Up Cut Router Bit'",
+                "tool_productLink": "'https://spetools.com/products/spetool-a02005-carbide-aluminum-up-cut-end-mill-router-bits-3-flute-1-4-dia-1-4-shank-3-5-inch-long'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 2.5,
+                "LCF": 1.5,
+                "NOF": 3,
+                "OAL": 3.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 2.5,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1.5
+            },
+            "guid": "7076ecaf-30cb-4294-b0f4-36cd3ff677e4",
+            "last_modified": 1758241486178,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 69,
+                "length-offset": 69,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 69,
+                "turret": 0
+            },
+            "product-id": "A02005",
+            "product-link": "https://spetools.com/products/spetool-a02005-carbide-aluminum-up-cut-end-mill-router-bits-3-flute-1-4-dia-1-4-shank-3-5-inch-long",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_stepdown": "0.25 in",
+                            "tool_stepover": "0.025 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.005833333333333333,
+                        "f_z": 0.005833333333333333,
+                        "guid": "04cd04ac-d495-408d-a46a-09a63bc98479",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 785.3981633974482,
+                        "v_f": 210,
+                        "v_f_leadIn": 210,
+                        "v_f_leadOut": 210,
+                        "v_f_plunge": 70,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 210
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool M02005 CNC SC Spiral for Steel, Stainless Steel Metal with TiAlN Coating 4-Flute 1/4\" Dia x 1/4\" Shank x 1-1/8\" Cutting Length x 3\" Long Ball Nose Up Cut End Mill",
+            "expressions": {
+                "tool_description": "'SpeTool M02005 CNC SC Spiral for Steel, Stainless Steel Metal with TiAlN Coating 4-Flute 1/4\" Dia x 1/4\" Shank x 1-1/8\" Cutting Length x 3\" Long Ball Nose Up Cut End Mill'",
+                "tool_productLink": "'https://spetools.com/products/spetool-m02005-stainless-steel-up-cut-end-mill-ball-nose-4-flute-1-4-dia-1-4-shank-3-inch-long'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 2,
+                "LCF": 1.125,
+                "NOF": 4,
+                "OAL": 3,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 2,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1.125
+            },
+            "guid": "3d86b1fd-1db3-4078-9a98-cba9c0d881d5",
+            "last_modified": 1758241536864,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 97,
+                "length-offset": 97,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 97,
+                "turret": 0
+            },
+            "product-id": "M02005",
+            "product-link": "https://spetools.com/products/spetool-m02005-stainless-steel-up-cut-end-mill-ball-nose-4-flute-1-4-dia-1-4-shank-3-inch-long",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "70 inpm",
+                            "tool_feedPlunge": "(70/3) inpm",
+                            "tool_feedRamp": "(70/3) inpm",
+                            "tool_stepdown": "(1/4) in",
+                            "tool_stepover": "(1/40) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0012962962962962965,
+                        "f_z": 0.000972222222222222,
+                        "guid": "6be1b89d-4a36-4a9e-8dde-de13dcd7cd9a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "IRON/STAINLESS",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 23.333333333333336,
+                        "v_f_ramp": 23.333333333333336,
+                        "v_f_transition": 70
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "65 inpm",
+                            "tool_feedPlunge": "(65/3) inpm",
+                            "tool_feedRamp": "(65/3) inpm",
+                            "tool_stepdown": "(1/4) in",
+                            "tool_stepover": "(1/40) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0012037037037037038,
+                        "f_z": 0.0009027777777777776,
+                        "guid": "0ae15e33-2675-4092-a207-963e999f0004",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "STEEL",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 65,
+                        "v_f_leadIn": 65,
+                        "v_f_leadOut": 65,
+                        "v_f_plunge": 21.666666666666668,
+                        "v_f_ramp": 21.666666666666668,
+                        "v_f_transition": 65
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool M03011 5Pcs CNC SC Spiral for Steel, Stainless Steel with TiAlN Coating 4-Flute 1/8\" Dia x 1/8\" Shank x 1/2\" Cutting Length x 1-1/2\" Long Flat Top Up Cut End Mills",
+            "expressions": {
+                "tool_description": "'SpeTool M03011 5Pcs CNC SC Spiral for Steel, Stainless Steel with TiAlN Coating 4-Flute 1/8\" Dia x 1/8\" Shank x 1/2\" Cutting Length x 1-1/2\" Long Flat Top Up Cut End Mills'",
+                "tool_productLink": "'https://spetools.com/products/spetool-m03011-stainless-steel-up-cut-end-mill-flat-top-4-flute-1-8-dia-1-8-shank'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 0.7,
+                "LCF": 0.5,
+                "NOF": 4,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 0.7,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 0.5
+            },
+            "guid": "84823f77-f5c4-4d6d-afc9-8e7fa0d48d9f",
+            "last_modified": 1758241654791,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 101,
+                "length-offset": 101,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 101,
+                "turret": 0
+            },
+            "product-id": "M03011",
+            "product-link": "https://spetools.com/products/spetool-m03011-stainless-steel-up-cut-end-mill-flat-top-4-flute-1-8-dia-1-8-shank",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "35 inpm",
+                            "tool_feedPlunge": "(35/3) inpm",
+                            "tool_feedRamp": "(35/3) inpm",
+                            "tool_stepdown": "(1/8) in",
+                            "tool_stepover": "(1/80) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000648148148148148,
+                        "f_z": 0.000486111111111111,
+                        "guid": "6be1b89d-4a36-4a9e-8dde-de13dcd7cd9a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "IRON/STAINLESS",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.0125,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 589.0486225480862,
+                        "v_f": 35,
+                        "v_f_leadIn": 35,
+                        "v_f_leadOut": 35,
+                        "v_f_plunge": 11.666666666666668,
+                        "v_f_ramp": 11.666666666666668,
+                        "v_f_transition": 35
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "32 inpm",
+                            "tool_feedPlunge": "(32/3) inpm",
+                            "tool_feedRamp": "(32/3) inpm",
+                            "tool_stepdown": "(1/8) in",
+                            "tool_stepover": "(1/80) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0005925925925925926,
+                        "f_z": 0.0004444444444444444,
+                        "guid": "fdc320ca-e92b-45a0-86db-6745da714ed2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "STEEL",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.0125,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 589.0486225480862,
+                        "v_f": 32,
+                        "v_f_leadIn": 32,
+                        "v_f_leadOut": 32,
+                        "v_f_plunge": 10.666666666666666,
+                        "v_f_ramp": 10.666666666666666,
+                        "v_f_transition": 32
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool A03002 5Pcs CNC SC Spiral Aluminum Cutting 1/8\" Dia x 7/16\" Cutting Length x 1/8\" Shank x 1-1/2\" Long 2 Flute Up Cut Router Bits",
+            "expressions": {
+                "tool_description": "'SpeTool A03002 5Pcs CNC SC Spiral Aluminum Cutting 1/8\" Dia x 7/16\" Cutting Length x 1/8\" Shank x 1-1/2\" Long 2 Flute Up Cut Router Bits'",
+                "tool_productLink": "'https://spetools.com/products/spetool-a03002-carbide-aluminum-up-cut-end-mill-router-bits-2-flute-1-8-dia-1-8-shank'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 0.7,
+                "LCF": 0.4375,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 0.7,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 0.4375
+            },
+            "guid": "87bdfda0-7a3d-4d8c-9b4b-5078b1441f17",
+            "last_modified": 1758241825006,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 64,
+                "length-offset": 64,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 64,
+                "turret": 0
+            },
+            "product-id": "A03002",
+            "product-link": "https://spetools.com/products/spetool-a03002-carbide-aluminum-up-cut-end-mill-router-bits-2-flute-1-8-dia-1-8-shank",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_stepdown": "0.125 in",
+                            "tool_stepover": "0.0125 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0020833333333333333,
+                        "f_z": 0.0029166666666666664,
+                        "guid": "04cd04ac-d495-408d-a46a-09a63bc98479",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Aluminum",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.0125,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 392.6990816987241,
+                        "v_f": 70,
+                        "v_f_leadIn": 70,
+                        "v_f_leadOut": 70,
+                        "v_f_plunge": 25,
+                        "v_f_ramp": 25,
+                        "v_f_transition": 70
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool W06007 Solid Carbide V Groove 90 Deg 1/4\" Dia x 1/4\" Shank x 2\" Long 4 Flute TiAlN Coated Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W06007 Solid Carbide V Groove 90 Deg 1/4\" Dia x 1/4\" Shank x 2\" Long 4 Flute TiAlN Coated Router Bit'",
+                "tool_productLink": "'https://spetools.com/products/spetool-w06007-v-groove-chamfer-router-bit-1-4-dia-1-4-shank-90-deg'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.125,
+                "NOF": 4,
+                "OAL": 2,
+                "SFDM": 0.25,
+                "TA": 45,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.375,
+                "tip-diameter": 0
+            },
+            "guid": "798bc7ff-296a-4163-bf30-e52921ebaf06",
+            "last_modified": 1758242277191,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 59,
+                "length-offset": 59,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 59,
+                "turret": 0
+            },
+            "product-id": "W06007",
+            "product-link": "https://spetools.com/products/spetool-w06007-v-groove-chamfer-router-bit-1-4-dia-1-4-shank-90-deg",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.006666666666666666,
+                        "f_z": 0.005,
+                        "guid": "4fe2f93c-7fd3-4bf9-804b-1e4a492b5b39",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "MDF/LAMINATE",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 360,
+                        "v_f_leadIn": 360,
+                        "v_f_leadOut": 360,
+                        "v_f_plunge": 120,
+                        "v_f_ramp": 120,
+                        "v_f_transition": 360
+                    },
+                    {
+                        "f_n": 0.0026666666666666666,
+                        "f_z": 0.002,
+                        "guid": "16201497-aff0-4163-b3f7-0d7cd2248b11",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "SOFTWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 144,
+                        "v_f_leadIn": 144,
+                        "v_f_leadOut": 144,
+                        "v_f_plunge": 48,
+                        "v_f_ramp": 48,
+                        "v_f_transition": 144
+                    },
+                    {
+                        "f_n": 0.0026666666666666666,
+                        "f_z": 0.002,
+                        "guid": "6ea347d9-63db-4464-a9e2-7cd7a664ebf2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "HARDWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 144,
+                        "v_f_leadIn": 144,
+                        "v_f_leadOut": 144,
+                        "v_f_plunge": 48,
+                        "v_f_ramp": 48,
+                        "v_f_transition": 144
+                    },
+                    {
+                        "f_n": 0.0026666666666666666,
+                        "f_z": 0.002,
+                        "guid": "8949360a-2791-4411-8d0c-0420d37cdce7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "PLASTIC",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 144,
+                        "v_f_leadIn": 144,
+                        "v_f_leadOut": 144,
+                        "v_f_plunge": 48,
+                        "v_f_ramp": 48,
+                        "v_f_transition": 144
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool W04004 SC Spiral Plunge 1/4\" Dia x 1/4\" Shank x 1\" Cutting Length x 2-1/2\" Long 2 Flute Down-Cut Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W04004 SC Spiral Plunge 1/4\" Dia x 1/4\" Shank x 1\" Cutting Length x 2-1/2\" Long 2 Flute Down-Cut Router Bit'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.1,
+                "LCF": 1,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.1,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1
+            },
+            "guid": "8e66aded-4bd0-4b6f-b2ce-296083a09538",
+            "last_modified": 1758242290085,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13,
+                "length-offset": 13,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13,
+                "turret": 0
+            },
+            "product-id": "W04004",
+            "product-link": "https://spetools.com/products/spetool-w04004-downcut-router-bit-1-4-cd-1-4-sd-1-cl",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.0042592555555555555,
+                        "f_z": 0.006388888888888888,
+                        "guid": "15dd597a-7ef0-4980-a4e2-c3d91cc4ace6",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "MDF/Laminate",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 230,
+                        "v_f_leadIn": 230,
+                        "v_f_leadOut": 230,
+                        "v_f_plunge": 76.6666,
+                        "v_f_ramp": 76.6666,
+                        "v_f_transition": 230
+                    },
+                    {
+                        "f_n": 0.0037037,
+                        "f_z": 0.005555555555555555,
+                        "guid": "0ddf33e5-60d7-447f-91e0-007ca1be4817",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "SOFTWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 200,
+                        "v_f_leadIn": 200,
+                        "v_f_leadOut": 200,
+                        "v_f_plunge": 66.6666,
+                        "v_f_ramp": 66.6666,
+                        "v_f_transition": 200
+                    },
+                    {
+                        "f_n": 0.0026851833333333334,
+                        "f_z": 0.004027777777777778,
+                        "guid": "21e70dc5-7d18-492c-85cf-a9e2bf42cfbf",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "HARDWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 145,
+                        "v_f_leadIn": 145,
+                        "v_f_leadOut": 145,
+                        "v_f_plunge": 48.3333,
+                        "v_f_ramp": 48.3333,
+                        "v_f_transition": 145
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool W03001 SC Spiral O Flute 1/4\" Dia x 1/4\" Shank x 1\" Cutting Length x 2-1/2\" Long Up-cut Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W03001 SC Spiral O Flute 1/4\" Dia x 1/4\" Shank x 1\" Cutting Length x 2-1/2\" Long Up-cut Router Bit'",
+                "tool_productLink": "'https://spetools.com/products/spetool-w03001-o-flute-up-cut-router-bit-1-4-dia-1-4-shank'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.376,
+                "LCF": 1,
+                "NOF": 1,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.376,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1
+            },
+            "guid": "df37c0c6-c7f3-4956-99af-72201d148553",
+            "last_modified": 1758242306895,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 29,
+                "length-offset": 29,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 29,
+                "turret": 0
+            },
+            "product-id": "W03001",
+            "product-link": "https://spetools.com/products/spetool-w03001-o-flute-up-cut-router-bit-1-4-dia-1-4-shank",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.0033333333333333335,
+                        "f_z": 0.01,
+                        "guid": "a5bcda7c-1e6b-49b2-8566-cc5e607b1b88",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "MDF/SOFTWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 180,
+                        "v_f_leadIn": 180,
+                        "v_f_leadOut": 180,
+                        "v_f_plunge": 60.000000000000014,
+                        "v_f_ramp": 60.000000000000014,
+                        "v_f_transition": 180
+                    },
+                    {
+                        "f_n": 0.0026666666666666666,
+                        "f_z": 0.008,
+                        "guid": "c95e3e0f-79de-4a25-9135-2069e76a0485",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "PLASTIC/ACRYLIC",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 144,
+                        "v_f_leadIn": 144,
+                        "v_f_leadOut": 144,
+                        "v_f_plunge": 48,
+                        "v_f_ramp": 48,
+                        "v_f_transition": 144
+                    },
+                    {
+                        "f_n": 0.0013333333333333333,
+                        "f_z": 0.004,
+                        "guid": "bef00ff0-133f-4faa-929d-83a1589b764a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "ALUMINUM",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 72,
+                        "v_f_leadIn": 72,
+                        "v_f_leadOut": 72,
+                        "v_f_plunge": 24,
+                        "v_f_ramp": 24,
+                        "v_f_transition": 72
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool W01015 CNC 2D and 3D Carving 5.38 Deg Tapered Angle Ball Nose 1/32\" Radius x 1/4\" Shank x 1\" Cutting Length x 2-1/2\" Long 2 Flute SC ZrN Coated Upcut Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W01015 CNC 2D and 3D Carving 5.38 Deg Tapered Angle Ball Nose 1/32\" Radius x 1/4\" Shank x 1\" Cutting Length x 2-1/2\" Long 2 Flute SC ZrN Coated Upcut Router Bit'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1,
+                "NOF": 2,
+                "OAL": 2.5,
+                "RE": 0.03125,
+                "SFDM": 0.25,
+                "TA": 5.380000000000003,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.25085131570669,
+                "shoulder-length": 1
+            },
+            "guid": "64b92de9-309a-4d79-9bcd-7495b735b270",
+            "last_modified": 1758242323167,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 44,
+                "length-offset": 44,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 44,
+                "turret": 0
+            },
+            "product-id": "W01015",
+            "product-link": "https://spetools.com/products/spetool-tapered-ball-nose-spiral-router-bit-1-32-inch-tip-radius-5-38-deg-for-cnc-milling-engraver-carving-bits",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.0006666666666666666,
+                        "f_z": 0.001,
+                        "guid": "8feafff5-dd52-41a3-865d-57b25f684813",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "ALUMINUM/COPPER/BRASS",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0625,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 294.5243112740431,
+                        "v_f": 36,
+                        "v_f_leadIn": 36,
+                        "v_f_leadOut": 36,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 12,
+                        "v_f_transition": 36
+                    },
+                    {
+                        "f_n": 0.001,
+                        "f_z": 0.0015,
+                        "guid": "1e453cd9-3888-4042-bc20-a6720f976b2c",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "WOOD/MDF/SIGN-FOAM",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0625,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 294.5243112740431,
+                        "v_f": 54,
+                        "v_f_leadIn": 54,
+                        "v_f_leadOut": 54,
+                        "v_f_plunge": 18,
+                        "v_f_ramp": 18,
+                        "v_f_transition": 54
+                    }
+                ]
+            },
+            "tapered-type": "tapered_ball",
+            "type": "tapered mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool M02001 CNC SC Spiral for Steel, Stainless Steel with TiAlN Coating 2-Flute 1/4\" Dia x 1/4\" Shank x 1-1/8\" Cutting Length x 3\" Long Ball Nose Up Cut End Mill",
+            "expressions": {
+                "tool_description": "'SpeTool M02001 CNC SC Spiral for Steel, Stainless Steel with TiAlN Coating 2-Flute 1/4\" Dia x 1/4\" Shank x 1-1/8\" Cutting Length x 3\" Long Ball Nose Up Cut End Mill'",
+                "tool_productLink": "'https://spetools.com/products/spetool-m02001-stainless-steel-up-cut-end-mill-ball-nose-2-flute-1-4-dia-1-4-shank-3-inch-long'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 2,
+                "LCF": 1.125,
+                "NOF": 2,
+                "OAL": 3,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 2,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1.125
+            },
+            "guid": "32582737-ddab-4b03-ba9c-56db73478600",
+            "last_modified": 1758242339414,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 80,
+                "length-offset": 80,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 80,
+                "turret": 0
+            },
+            "product-id": "M02001",
+            "product-link": "https://spetools.com/products/spetool-m02001-stainless-steel-up-cut-end-mill-ball-nose-2-flute-1-4-dia-1-4-shank-3-inch-long",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "35 inpm",
+                            "tool_feedPlunge": "12 inpm",
+                            "tool_feedRamp": "12 inpm",
+                            "tool_stepdown": "0.25 in",
+                            "tool_stepover": "0.025 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.001,
+                        "f_z": 0.0014583333333333332,
+                        "guid": "6be1b89d-4a36-4a9e-8dde-de13dcd7cd9a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "IRON/STAINLESS",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 785.3981633974482,
+                        "v_f": 35,
+                        "v_f_leadIn": 35,
+                        "v_f_leadOut": 35,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 12,
+                        "v_f_transition": 35
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "30 inpm",
+                            "tool_feedPlunge": "10 inpm",
+                            "tool_feedRamp": "10 inpm",
+                            "tool_stepdown": "0.25 in",
+                            "tool_stepover": "0.025 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.00125,
+                        "guid": "8f2c02a9-cd4e-44ec-878f-562a6f9c9908",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "STEEL",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 785.3981633974482,
+                        "v_f": 30,
+                        "v_f_leadIn": 30,
+                        "v_f_leadOut": 30,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 10,
+                        "v_f_transition": 30
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool W04005 SC Spiral Plunge 1/4\" Dia x 1/4\" Shank x 1\" Cutting Length x 2-1/2\" Long 2 Flute Up-Cut Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W04005 SC Spiral Plunge 1/4\" Dia x 1/4\" Shank x 1\" Cutting Length x 2-1/2\" Long 2 Flute Up-Cut Router Bit'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.1,
+                "LCF": 1,
+                "NOF": 2,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.1,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1
+            },
+            "guid": "61ecd7ae-6c3b-491b-aef8-fe3ca8c7f6f3",
+            "last_modified": 1758242355769,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 3,
+                "length-offset": 3,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 3,
+                "turret": 0
+            },
+            "product-id": "W04005",
+            "product-link": "https://spetools.com/products/spetool-w04005-upcut-router-bit-1-4-inch-cutting-diameter-1-4-inch-shank",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.005370366666666667,
+                        "f_z": 0.008055555555555555,
+                        "guid": "cbc21eb2-a9ef-48d8-b2f6-264c8a24c390",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "MDF/Laminate",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 290,
+                        "v_f_leadIn": 290,
+                        "v_f_leadOut": 290,
+                        "v_f_plunge": 96.6666,
+                        "v_f_ramp": 96.6666,
+                        "v_f_transition": 290
+                    },
+                    {
+                        "f_n": 0.004629627777777778,
+                        "f_z": 0.006944444444444444,
+                        "guid": "61021d1b-7b2c-4350-a3a1-4ea5a37da11a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "SOFTWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 250,
+                        "v_f_leadIn": 250,
+                        "v_f_leadOut": 250,
+                        "v_f_plunge": 83.3333,
+                        "v_f_ramp": 83.3333,
+                        "v_f_transition": 250
+                    },
+                    {
+                        "f_n": 0.003981477777777778,
+                        "f_z": 0.005972222222222222,
+                        "guid": "f41be27d-b3bc-428f-ad84-252b821ddfb7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "HARDWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 215,
+                        "v_f_leadIn": 215,
+                        "v_f_leadOut": 215,
+                        "v_f_plunge": 71.6666,
+                        "v_f_ramp": 71.6666,
+                        "v_f_transition": 215
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool W06006 Solid Carbide V Groove 60 Deg 1/4\" Dia x 1/4\" Shank x 2\" Long 4 Flute TiAlN Coated Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W06006 Solid Carbide V Groove 60 Deg 1/4\" Dia x 1/4\" Shank x 2\" Long 4 Flute TiAlN Coated Router Bit'",
+                "tool_productLink": "'https://spetools.com/products/spetool-w06006-v-groove-chamfer-router-bit-1-4-dia-1-4-shank-60-deg'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.216506351,
+                "NOF": 4,
+                "OAL": 2,
+                "SFDM": 0.25,
+                "TA": 30.00000000000001,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.649,
+                "tip-diameter": 0
+            },
+            "guid": "14596dac-7263-445d-9f3d-43f16c1e5f9d",
+            "last_modified": 1758242372591,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 58,
+                "length-offset": 58,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 58,
+                "turret": 0
+            },
+            "product-id": "W06006",
+            "product-link": "https://spetools.com/products/spetool-w06006-v-groove-chamfer-router-bit-1-4-dia-1-4-shank-60-deg",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.006666666666666666,
+                        "f_z": 0.005,
+                        "guid": "4fe2f93c-7fd3-4bf9-804b-1e4a492b5b39",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "MDF/LAMINATE",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 360,
+                        "v_f_leadIn": 360,
+                        "v_f_leadOut": 360,
+                        "v_f_plunge": 120,
+                        "v_f_ramp": 120,
+                        "v_f_transition": 360
+                    },
+                    {
+                        "f_n": 0.0026666666666666666,
+                        "f_z": 0.002,
+                        "guid": "821b1a42-022c-4d46-a8f8-4370820702cf",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "SOFTWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 144,
+                        "v_f_leadIn": 144,
+                        "v_f_leadOut": 144,
+                        "v_f_plunge": 48,
+                        "v_f_ramp": 48,
+                        "v_f_transition": 144
+                    },
+                    {
+                        "f_n": 0.0026666666666666666,
+                        "f_z": 0.002,
+                        "guid": "aa10b480-b547-49ef-b066-5abc257fbf45",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "HARDWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 144,
+                        "v_f_leadIn": 144,
+                        "v_f_leadOut": 144,
+                        "v_f_plunge": 48,
+                        "v_f_ramp": 48,
+                        "v_f_transition": 144
+                    },
+                    {
+                        "f_n": 0.0026666666666666666,
+                        "f_z": 0.002,
+                        "guid": "eb003e1c-78b8-4972-9216-1b63b40148a8",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "PLASTIC",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1178.0972450961724,
+                        "v_f": 144,
+                        "v_f_leadIn": 144,
+                        "v_f_leadOut": 144,
+                        "v_f_plunge": 48,
+                        "v_f_ramp": 48,
+                        "v_f_transition": 144
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "carbide",
+            "description": "SpeTool W04007 SC Spiral Plunge 1/8\" Dia x 1/4\" Shank x 1/2\" Cutting Length x 2\" Long 2 Flute Up-Cut Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W04007 SC Spiral Plunge 1/8\" Dia x 1/4\" Shank x 1/2\" Cutting Length x 2\" Long 2 Flute Up-Cut Router Bit'",
+                "tool_productLink": "'https://spetools.com/products/spetool-w04007-upcut-spiral-bit-1-8cd'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1.2,
+                "LCF": 0.5,
+                "NOF": 2,
+                "OAL": 2,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.2,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 0.51
+            },
+            "guid": "f973e782-4931-4db6-b6a2-40a14b7ee229",
+            "last_modified": 1758242397669,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 4,
+                "turret": 0
+            },
+            "product-id": "W04007",
+            "product-link": "https://spetools.com/products/spetool-w04007-upcut-spiral-bit-1-8cd",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.002962961111111111,
+                        "f_z": 0.0044444444444444444,
+                        "guid": "e0d5f8ee-6100-46c1-9e4b-b74f09fe1444",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "MDF/Laminate",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.05,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 589.0486225480862,
+                        "v_f": 160,
+                        "v_f_leadIn": 160,
+                        "v_f_leadOut": 160,
+                        "v_f_plunge": 53.3333,
+                        "v_f_ramp": 53.3333,
+                        "v_f_transition": 160
+                    },
+                    {
+                        "f_n": 0.002592588888888889,
+                        "f_z": 0.003888888888888888,
+                        "guid": "933cca0c-47e0-43a6-b032-67160d78dfdd",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "SOFTWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.05,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 589.0486225480862,
+                        "v_f": 140,
+                        "v_f_leadIn": 140,
+                        "v_f_leadOut": 140,
+                        "v_f_plunge": 46.6666,
+                        "v_f_ramp": 46.6666,
+                        "v_f_transition": 140
+                    },
+                    {
+                        "f_n": 0.002333333333333333,
+                        "f_z": 0.003472222222222222,
+                        "guid": "741f3f60-7b67-41fd-9253-d221252fea97",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "HARDWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.05,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 589.0486225480862,
+                        "v_f": 125,
+                        "v_f_leadIn": 125,
+                        "v_f_leadOut": 125,
+                        "v_f_plunge": 42,
+                        "v_f_ramp": 42,
+                        "v_f_transition": 125
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
         }
     ],
     "version": 36
