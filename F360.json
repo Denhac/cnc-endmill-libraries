@@ -2546,6 +2546,129 @@
             "type": "flat end mill",
             "unit": "inches",
             "vendor": "SpeTool"
+        },
+        {
+            "BMC": "unspecified",
+            "description": "SpeTool W05004 Insert Mini Surfacing & Rabbeting Flycutter 2+2 Flute Design 1-1/4\" Diameter x 1/4\" Shank Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W05004 Insert Mini Surfacing & Rabbeting Flycutter 2+2 Flute Design 1-1/4\" Diameter x 1/4\" Shank Router Bit'",
+                "tool_productLink": "'https://spetools.com/products/spetool-w05004-spoilboard-surfacing-router-bit-2-2-flute-1-1-4-inch-dia-1-4-shank'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 1.25,
+                "DCX": 1.25,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.393700787401575,
+                "NOF": 2,
+                "OAL": 1.7716535433070868,
+                "RE": 0,
+                "SFDM": 0.25,
+                "TA": 0,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 1.25,
+                "shoulder-length": 0.590551181102362,
+                "upper-radius": 0
+            },
+            "guid": "4693cc6b-333b-4fe0-84c4-5fd5befab7b0",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 114,
+                "length-offset": 114,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 114,
+                "turret": 0
+            },
+            "product-id": "W05004",
+            "product-link": "https://spetools.com/products/spetool-w05004-spoilboard-surfacing-router-bit-2-2-flute-1-1-4-inch-dia-1-4-shank",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.0037037,
+                        "f_z": 0.005555555555555555,
+                        "guid": "a8f8d941-fd62-4475-b77f-c4ba2d312c3e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "MDF/LIMINATE",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0787,
+                        "stepover": 0.8,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 5890.486225480862,
+                        "v_f": 200,
+                        "v_f_leadIn": 200,
+                        "v_f_leadOut": 200,
+                        "v_f_plunge": 66.6666,
+                        "v_f_ramp": 66.6666,
+                        "v_f_transition": 200
+                    },
+                    {
+                        "f_n": 0.0027777777777777775,
+                        "f_z": 0.004166666666666666,
+                        "guid": "c6c191d0-91ad-42c8-81b4-e9c9d78c7305",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "SOFTWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0787,
+                        "stepover": 0.8,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 5890.486225480862,
+                        "v_f": 150,
+                        "v_f_leadIn": 150,
+                        "v_f_leadOut": 150,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 150
+                    },
+                    {
+                        "f_n": 0.00185185,
+                        "f_z": 0.0027777777777777775,
+                        "guid": "c9607ee3-1d8f-43c3-8ddc-526d5d4a0d3e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "HARDWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0787,
+                        "stepover": 0.8,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 5890.486225480862,
+                        "v_f": 100,
+                        "v_f_leadIn": 100,
+                        "v_f_leadOut": 100,
+                        "v_f_plunge": 33.3333,
+                        "v_f_ramp": 33.3333,
+                        "v_f_transition": 100
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
         }
     ],
     "version": 36
