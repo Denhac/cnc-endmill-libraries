@@ -452,11 +452,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 10,
-                "length-offset": 10,
+                "diameter-offset": 7,
+                "length-offset": 7,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 10,
+                "number": 7,
                 "turret": 0
             },
             "product-id": "M02001",
@@ -536,79 +536,6 @@
                 ]
             },
             "type": "ball end mill",
-            "unit": "inches",
-            "vendor": "SpeTool"
-        },
-        {
-            "BMC": "carbide",
-            "description": "SpeTool A02005 CNC SC Spiral Aluminum Cutting 1/4\" Dia x 1-1/2\" Cutting Length x 1/4\" Shank x 3-1/2\" Extra Long 3 Flute Up Cut Router Bit",
-            "expressions": {
-                "tool_description": "'SpeTool A02005 CNC SC Spiral Aluminum Cutting 1/4\" Dia x 1-1/2\" Cutting Length x 1/4\" Shank x 3-1/2\" Extra Long 3 Flute Up Cut Router Bit'",
-                "tool_productLink": "'https://spetools.com/products/spetool-a02005-carbide-aluminum-up-cut-end-mill-router-bits-3-flute-1-4-dia-1-4-shank-3-5-inch-long'"
-            },
-            "geometry": {
-                "CSP": false,
-                "DC": 0.25,
-                "HAND": true,
-                "LB": 2.5,
-                "LCF": 1.5,
-                "NOF": 3,
-                "OAL": 3.5,
-                "SFDM": 0.25,
-                "assemblyGaugeLength": 2.5,
-                "shoulder-diameter": 0.25,
-                "shoulder-length": 1.5
-            },
-            "guid": "6b4b19da-800c-4c38-af69-d7747aa6afdb",
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "diameter-offset": 7,
-                "length-offset": 7,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 7,
-                "turret": 0
-            },
-            "product-id": "A02005",
-            "product-link": "https://spetools.com/products/spetool-a02005-carbide-aluminum-up-cut-end-mill-router-bits-3-flute-1-4-dia-1-4-shank-3-5-inch-long",
-            "start-values": {
-                "presets": [
-                    {
-                        "expressions": {
-                            "tool_stepdown": "0.25 in",
-                            "tool_stepover": "0.025 in",
-                            "use_tool_stepdown": "true",
-                            "use_tool_stepover": "true"
-                        },
-                        "f_n": 0.005833333333333333,
-                        "f_z": 0.005833333333333333,
-                        "guid": "04cd04ac-d495-408d-a46a-09a63bc98479",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 12000,
-                        "n_ramp": 12000,
-                        "name": "Aluminum",
-                        "ramp-angle": 2,
-                        "stepdown": 0.25,
-                        "stepover": 0.025,
-                        "tool-coolant": "flood",
-                        "use-stepdown": true,
-                        "use-stepover": true,
-                        "v_c": 785.3981633974482,
-                        "v_f": 210,
-                        "v_f_leadIn": 210,
-                        "v_f_leadOut": 210,
-                        "v_f_plunge": 70,
-                        "v_f_ramp": 70,
-                        "v_f_transition": 210
-                    }
-                ]
-            },
-            "type": "flat end mill",
             "unit": "inches",
             "vendor": "SpeTool"
         },
@@ -718,11 +645,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 19,
-                "length-offset": 19,
+                "diameter-offset": 17,
+                "length-offset": 17,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 19,
+                "number": 17,
                 "turret": 0
             },
             "product-id": "W01015",
@@ -932,11 +859,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 15,
-                "length-offset": 15,
+                "diameter-offset": 14,
+                "length-offset": 14,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 15,
+                "number": 14,
                 "turret": 0
             },
             "product-id": "W01002",
@@ -1026,11 +953,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 11,
-                "length-offset": 11,
+                "diameter-offset": 10,
+                "length-offset": 10,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 11,
+                "number": 10,
                 "turret": 0
             },
             "product-id": "M03011",
@@ -1137,11 +1064,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 12,
-                "length-offset": 12,
+                "diameter-offset": 11,
+                "length-offset": 11,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 12,
+                "number": 11,
                 "turret": 0
             },
             "product-id": "A03002",
@@ -1210,11 +1137,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 13,
-                "length-offset": 13,
+                "diameter-offset": 12,
+                "length-offset": 12,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 13,
+                "number": 12,
                 "turret": 0
             },
             "product-id": "M03003",
@@ -1299,102 +1226,6 @@
         },
         {
             "BMC": "carbide",
-            "description": "SpeTool W01002 5Pcs CNC 2D and 3D Carving 4.16 Deg Tapered Angle Ball Nose 0.5mm Radius x 1/8\" Shank x 15mm Cutting Length x 1-1/2\" Long 2 Flute SC TiAlN Coated Upcut Router Bits",
-            "expressions": {
-                "tool_description": "'SpeTool W01002 5Pcs CNC 2D and 3D Carving 4.16 Deg Tapered Angle Ball Nose 0.5mm Radius x 1/8\" Shank x 15mm Cutting Length x 1-1/2\" Long 2 Flute SC TiAlN Coated Upcut Router Bits'",
-                "tool_productLink": "'https://spetools.com/products/spetool-w01002-2d-3d-carving-engraving-tapered-ball-nose-router-bit-r-0-5mm-1-8-shank'"
-            },
-            "geometry": {
-                "CSP": false,
-                "DC": 0.999999999999988,
-                "HAND": true,
-                "LB": 25.4,
-                "LCF": 14.999999999999996,
-                "NOF": 2,
-                "OAL": 38.1,
-                "RE": 0.500000000000007,
-                "SFDM": 3.175,
-                "TA": 4.16,
-                "assemblyGaugeLength": 25.4,
-                "shoulder-diameter": 3.182006467126734,
-                "shoulder-length": 14.999999999999996
-            },
-            "guid": "e32ff5b9-3a10-4796-b46a-fe2b47cb6e1d",
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "diameter-offset": 16,
-                "length-offset": 16,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 16,
-                "turret": 0
-            },
-            "product-id": "W01002",
-            "product-link": "https://spetools.com/products/spetool-w01002-2d-3d-carving-engraving-tapered-ball-nose-router-bit-r-0-5mm-1-8-shank",
-            "start-values": {
-                "presets": [
-                    {
-                        "f_n": 0.008466666666666666,
-                        "f_z": 0.012700000000000005,
-                        "guid": "8feafff5-dd52-41a3-865d-57b25f684813",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 18000,
-                        "n_ramp": 18000,
-                        "name": "ALUMINUM/COPPER/BRASS",
-                        "ramp-angle": 2,
-                        "stepdown": 1,
-                        "stepover": 0.4,
-                        "tool-coolant": "flood",
-                        "use-stepdown": true,
-                        "use-stepover": true,
-                        "v_c": 56.5486677646156,
-                        "v_f": 457.2000000000001,
-                        "v_f_leadIn": 457.2000000000001,
-                        "v_f_leadOut": 457.2000000000001,
-                        "v_f_plunge": 152.4,
-                        "v_f_ramp": 152.4,
-                        "v_f_transition": 457.2000000000001
-                    },
-                    {
-                        "f_n": 0.01693333333333333,
-                        "f_z": 0.02540000000000001,
-                        "guid": "f81123d3-faba-42a6-9b64-5035a8508c85",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 18000,
-                        "n_ramp": 18000,
-                        "name": "WOOD/MDF/SIGN-FOAM",
-                        "ramp-angle": 2,
-                        "stepdown": 1,
-                        "stepover": 0.4,
-                        "tool-coolant": "flood",
-                        "use-stepdown": true,
-                        "use-stepover": true,
-                        "v_c": 56.5486677646156,
-                        "v_f": 914.4000000000002,
-                        "v_f_leadIn": 914.4000000000002,
-                        "v_f_leadOut": 914.4000000000002,
-                        "v_f_plunge": 304.8,
-                        "v_f_ramp": 304.8,
-                        "v_f_transition": 914.4000000000002
-                    }
-                ]
-            },
-            "tapered-type": "tapered_ball",
-            "type": "tapered mill",
-            "unit": "millimeters",
-            "vendor": "SpeTool"
-        },
-        {
-            "BMC": "carbide",
             "description": "SpeTool W01004 5Pcs CNC 2D and 3D Carving 2.24 Deg Tapered Angle Ball Nose 1.0mm Radius x 1/8\" Shank x 15mm Cutting Length x 1-1/2\" Long 2 Flute SC TiAlN Coated Upcut Router Bits",
             "expressions": {
                 "tool_description": "'SpeTool W01004 5Pcs CNC 2D and 3D Carving 2.24 Deg Tapered Angle Ball Nose 1.0mm Radius x 1/8\" Shank x 15mm Cutting Length x 1-1/2\" Long 2 Flute SC TiAlN Coated Upcut Router Bits'",
@@ -1419,11 +1250,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 18,
-                "length-offset": 18,
+                "diameter-offset": 16,
+                "length-offset": 16,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 18,
+                "number": 16,
                 "turret": 0
             },
             "product-id": "W01004",
@@ -1515,11 +1346,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 17,
-                "length-offset": 17,
+                "diameter-offset": 15,
+                "length-offset": 15,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 17,
+                "number": 15,
                 "turret": 0
             },
             "product-id": "W01003",
@@ -1611,11 +1442,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 14,
-                "length-offset": 14,
+                "diameter-offset": 13,
+                "length-offset": 13,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 14,
+                "number": 13,
                 "turret": 0
             },
             "product-id": "W01001",
@@ -1703,11 +1534,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 20,
-                "length-offset": 20,
+                "diameter-offset": 18,
+                "length-offset": 18,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 20,
+                "number": 18,
                 "turret": 0
             },
             "product-id": "301",
@@ -1765,11 +1596,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 21,
-                "length-offset": 21,
+                "diameter-offset": 19,
+                "length-offset": 19,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 21,
+                "number": 19,
                 "turret": 0
             },
             "product-id": "301",
@@ -1828,11 +1659,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "Round the borders of signs, or letters. It doesn’t matter, as long as you have 1/8″ to play with on your project, this cutter will add a gentle softness to your CNC projects. to your woodworking CNC project that gives it the extra character to make it stand out.",
-                "diameter-offset": 22,
-                "length-offset": 22,
+                "diameter-offset": 20,
+                "length-offset": 20,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 22,
+                "number": 20,
                 "turret": 0
             },
             "product-id": "RO-18",
@@ -1900,11 +1731,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 23,
-                "length-offset": 23,
+                "diameter-offset": 21,
+                "length-offset": 21,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 23,
+                "number": 21,
                 "turret": 0
             },
             "product-id": "W05004",
