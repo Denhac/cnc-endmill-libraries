@@ -645,11 +645,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 17,
-                "length-offset": 17,
+                "diameter-offset": 204,
+                "length-offset": 204,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 17,
+                "number": 204,
                 "turret": 0
             },
             "product-id": "W01015",
@@ -859,11 +859,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 14,
-                "length-offset": 14,
+                "diameter-offset": 201,
+                "length-offset": 201,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 14,
+                "number": 201,
                 "turret": 0
             },
             "product-id": "W01002",
@@ -953,11 +953,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 10,
-                "length-offset": 10,
+                "diameter-offset": 102,
+                "length-offset": 102,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 10,
+                "number": 102,
                 "turret": 0
             },
             "product-id": "M03011",
@@ -1064,11 +1064,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 11,
-                "length-offset": 11,
+                "diameter-offset": 103,
+                "length-offset": 103,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 11,
+                "number": 103,
                 "turret": 0
             },
             "product-id": "A03002",
@@ -1137,11 +1137,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 12,
-                "length-offset": 12,
+                "diameter-offset": 104,
+                "length-offset": 104,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 12,
+                "number": 104,
                 "turret": 0
             },
             "product-id": "M03003",
@@ -1250,11 +1250,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 16,
-                "length-offset": 16,
+                "diameter-offset": 203,
+                "length-offset": 203,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 16,
+                "number": 203,
                 "turret": 0
             },
             "product-id": "W01004",
@@ -1346,11 +1346,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 15,
-                "length-offset": 15,
+                "diameter-offset": 202,
+                "length-offset": 202,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 15,
+                "number": 202,
                 "turret": 0
             },
             "product-id": "W01003",
@@ -1442,11 +1442,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 13,
-                "length-offset": 13,
+                "diameter-offset": 200,
+                "length-offset": 200,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 13,
+                "number": 200,
                 "turret": 0
             },
             "product-id": "W01001",
@@ -1513,197 +1513,6 @@
             "vendor": "SpeTool"
         },
         {
-            "BMC": "carbide",
-            "GRADE": "generic",
-            "description": "#302 - 60 Deg V-bit",
-            "geometry": {
-                "CSP": false,
-                "DC": 0.4375,
-                "HAND": true,
-                "LB": 2,
-                "LCF": 0.25,
-                "NOF": 2,
-                "OAL": 2,
-                "SFDM": 0.25,
-                "SIG": 60,
-                "assemblyGaugeLength": 2,
-                "shoulder-length": 0.7,
-                "tip-diameter": 0.02
-            },
-            "guid": "7e6621f8-183b-4ae1-8809-9881f8c8f2ff",
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "diameter-offset": 18,
-                "length-offset": 18,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 18,
-                "turret": 0
-            },
-            "product-id": "301",
-            "product-link": "",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.0014,
-                        "f_z": 0.002,
-                        "guid": "e0be34ec-4454-3186-0255-29b7c63d92a2",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 10000,
-                        "name": "Default Preset",
-                        "tool-coolant": "disabled",
-                        "use-feed-per-revolution": false,
-                        "v_c": 1145.3723216212788,
-                        "v_f": 40,
-                        "v_f_leadIn": 30,
-                        "v_f_leadOut": 30,
-                        "v_f_plunge": 14,
-                        "v_f_ramp": 25,
-                        "v_f_retract": 50,
-                        "v_f_transition": 40
-                    }
-                ]
-            },
-            "type": "spot drill",
-            "unit": "inches",
-            "vendor": "Carbide 3D"
-        },
-        {
-            "BMC": "carbide",
-            "GRADE": "generic",
-            "description": "#301 - 90 Deg V-bit",
-            "geometry": {
-                "CSP": false,
-                "DC": 0.5,
-                "HAND": true,
-                "LB": 2,
-                "LCF": 0.25,
-                "NOF": 2,
-                "OAL": 2,
-                "SFDM": 0.25,
-                "SIG": 90,
-                "assemblyGaugeLength": 2,
-                "shoulder-length": 0.5,
-                "tip-diameter": 0.0175
-            },
-            "guid": "e253b6e0-99dc-41c2-8b05-03df7fe681bc",
-            "post-process": {
-                "break-control": false,
-                "comment": "",
-                "diameter-offset": 19,
-                "length-offset": 19,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 19,
-                "turret": 0
-            },
-            "product-id": "301",
-            "product-link": "",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.0012,
-                        "f_z": 0.001,
-                        "guid": "d8193c20-4f73-9f07-235c-af81c39979df",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 10000,
-                        "name": "Default Preset",
-                        "tool-coolant": "disabled",
-                        "use-feed-per-revolution": false,
-                        "v_c": 1308.9969389957469,
-                        "v_f": 20,
-                        "v_f_leadIn": 20,
-                        "v_f_leadOut": 20,
-                        "v_f_plunge": 12,
-                        "v_f_ramp": 20,
-                        "v_f_retract": 20,
-                        "v_f_transition": 20
-                    }
-                ]
-            },
-            "type": "spot drill",
-            "unit": "inches",
-            "vendor": "Carbide 3D"
-        },
-        {
-            "BMC": "carbide",
-            "GRADE": "Mill Generic",
-            "description": "1/8\" Radius Round Over",
-            "geometry": {
-                "CSP": false,
-                "DC": 0.005,
-                "HAND": true,
-                "LB": 0.75,
-                "LCF": 0.125,
-                "NOF": 2,
-                "OAL": 1.9,
-                "RE": 0.125,
-                "SFDM": 0.25,
-                "assemblyGaugeLength": 0.75,
-                "shoulder-diameter": 0.255,
-                "shoulder-length": 0.3,
-                "tip-length": 0
-            },
-            "guid": "94382c67-aecd-4fd6-8643-36eb8adee270",
-            "post-process": {
-                "break-control": false,
-                "comment": "Round the borders of signs, or letters. It doesn’t matter, as long as you have 1/8″ to play with on your project, this cutter will add a gentle softness to your CNC projects. to your woodworking CNC project that gives it the extra character to make it stand out.",
-                "diameter-offset": 20,
-                "length-offset": 20,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 20,
-                "turret": 0
-            },
-            "product-id": "RO-18",
-            "product-link": "https://idcwoodcraft.com/products/1-8-radius-edge-rounding-bit-for-cnc-routers-1-4-shank?ref=app",
-            "start-values": {
-                "presets": [
-                    {
-                        "description": "",
-                        "f_n": 0.0011764705882352942,
-                        "f_z": 0.0017647058823529417,
-                        "guid": "e6bcbba4-e718-4157-8549-975415e28b88",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 17000,
-                        "n_ramp": 17000,
-                        "name": "Default preset",
-                        "ramp-angle": 2,
-                        "stepdown": 0.095,
-                        "stepover": 0.02,
-                        "tool-coolant": "disabled",
-                        "use-stepdown": true,
-                        "use-stepover": true,
-                        "v_c": 22.2529479629277,
-                        "v_f": 60.000000000000014,
-                        "v_f_leadIn": 60.000000000000014,
-                        "v_f_leadOut": 60.000000000000014,
-                        "v_f_plunge": 20,
-                        "v_f_ramp": 20,
-                        "v_f_transition": 60.000000000000014
-                    }
-                ]
-            },
-            "type": "radius mill",
-            "unit": "inches",
-            "vendor": "IDC Woodcraft"
-        },
-        {
             "BMC": "unspecified",
             "description": "SpeTool W05004 Insert Mini Surfacing & Rabbeting Flycutter 2+2 Flute Design 1-1/4\" Diameter x 1/4\" Shank Router Bit",
             "expressions": {
@@ -1731,11 +1540,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 21,
-                "length-offset": 21,
+                "diameter-offset": 255,
+                "length-offset": 255,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 21,
+                "number": 255,
                 "turret": 0
             },
             "product-id": "W05004",
@@ -1847,11 +1656,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 8,
-                "length-offset": 8,
+                "diameter-offset": 100,
+                "length-offset": 100,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 8,
+                "number": 100,
                 "turret": 0
             },
             "product-id": "102",
@@ -1910,11 +1719,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 9,
-                "length-offset": 9,
+                "diameter-offset": 101,
+                "length-offset": 101,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 9,
+                "number": 101,
                 "turret": 0
             },
             "product-id": "101",
@@ -1951,6 +1760,158 @@
             "type": "ball end mill",
             "unit": "inches",
             "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "60° V-Bit 1/2\" Shank ",
+            "expressions": {
+                "tool_comment": "'Ready for some extremely clean v-grooves with your CNC router? The Blade series v-bits are excellent for inlay work. This 60-degree v-bit (1/2 shank) for CNC routers is designed to leave an ultra-smooth cut so your CNC woodworking projects look awesome right off the machine.'",
+                "tool_description": "'60° V-Bit 1/2\" Shank '",
+                "tool_diameter": ".5 in",
+                "tool_overallLength": "2.55 in",
+                "tool_productId": "'TV-12-6'",
+                "tool_productLink": "'https://idcwoodcraft.com/products/ultra-clean-cutting-60-degree-v-bit-for-cnc-routers-1-2-shank?ref=app'",
+                "tool_shaftDiameter": ".5 in",
+                "tool_taperAngle": "30 degrees"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.5,
+                "HAND": true,
+                "LB": 0.75,
+                "LCF": 0.067,
+                "NOF": 1,
+                "OAL": 2.55,
+                "SFDM": 0.5,
+                "TA": 30,
+                "assemblyGaugeLength": 0.75,
+                "shoulder-diameter": 0.5,
+                "shoulder-length": 0.5,
+                "tip-diameter": 0
+            },
+            "guid": "7fb564c3-e928-4a40-9732-7ee0248e962e",
+            "post-process": {
+                "break-control": false,
+                "comment": "Ready for some extremely clean v-grooves with your CNC router? The Blade series v-bits are excellent for inlay work. This 60-degree v-bit (1/2 shank) for CNC routers is designed to leave an ultra-smooth cut so your CNC woodworking projects look awesome right off the machine.",
+                "diameter-offset": 250,
+                "length-offset": 250,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 250,
+                "turret": 0
+            },
+            "product-id": "TV-12-6",
+            "product-link": "https://idcwoodcraft.com/products/ultra-clean-cutting-60-degree-v-bit-for-cnc-routers-1-2-shank?ref=app",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "90 inpm",
+                            "tool_feedPlunge": "30 inpm",
+                            "tool_feedRamp": "30 inpm",
+                            "tool_spindleSpeed": "22000 rpm",
+                            "tool_stepdown": "0.070 in",
+                            "tool_stepover": "(.5*.1) in"
+                        },
+                        "f_n": 0.0013636363636363635,
+                        "f_z": 0.00409090909090909,
+                        "guid": "e6bcbba4-e718-4157-8549-975415e28b88",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 22000,
+                        "n_ramp": 22000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "stepdown": 0.07,
+                        "stepover": 0.05,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 2879.7932657906435,
+                        "v_f": 90,
+                        "v_f_leadIn": 90,
+                        "v_f_leadOut": 90,
+                        "v_f_plunge": 30,
+                        "v_f_ramp": 30,
+                        "v_f_transition": 90
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": "IDC Woodcraft"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "90° V-Bit 1/4\" Shank ",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 0.6,
+                "LCF": 0.125,
+                "NOF": 2,
+                "OAL": 2,
+                "SFDM": 0.25,
+                "TA": 45,
+                "assemblyGaugeLength": 0.6,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.4,
+                "tip-diameter": 0
+            },
+            "guid": "c8bb35d6-8253-463f-b323-080aab82bf69",
+            "post-process": {
+                "break-control": false,
+                "comment": "The only 90-degree v-bit with a knife-edge actually cuts instead of scraping material away. The 90-degree next-generation “Blade” design leaves superior v grooves that virtually ends post-sanding of your v-cuts.",
+                "diameter-offset": 251,
+                "length-offset": 251,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 251,
+                "turret": 0
+            },
+            "product-id": "SV-90",
+            "product-link": "https://idcwoodcraft.com/products/ultra-clean-cutting-90-degree-v-bit-for-cnc-routers-1-4-shank?ref=app",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0014705882352941176,
+                        "f_z": 0.0013235294117647058,
+                        "guid": "e6bcbba4-e718-4157-8549-975415e28b88",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 17000,
+                        "n_ramp": 17000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "stepdown": 0.1,
+                        "stepover": 0.05,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1112.647398146385,
+                        "v_f": 45,
+                        "v_f_leadIn": 45,
+                        "v_f_leadOut": 45,
+                        "v_f_plunge": 25,
+                        "v_f_ramp": 25,
+                        "v_f_transition": 45
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": "IDC Woodcraft"
         }
     ],
     "version": 36
