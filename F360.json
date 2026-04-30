@@ -2447,6 +2447,288 @@
             "type": "ball end mill",
             "unit": "inches",
             "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "#111 - 1/16\" Ballnose",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.3
+            },
+            "guid": "1e58e4ec-c00d-46fb-9fc6-9d70c37a2d82",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 102,
+                "length-offset": 102,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 102,
+                "turret": 0
+            },
+            "product-id": "111",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0016,
+                        "f_z": 0.002,
+                        "guid": "6ce6affc-490c-3975-df85-2eac7c50aa0d",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 163.62461737446836,
+                        "v_f": 40,
+                        "v_f_leadIn": 36,
+                        "v_f_leadOut": 36,
+                        "v_f_plunge": 16,
+                        "v_f_ramp": 32,
+                        "v_f_transition": 40
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "#112 - 1/16\" Square",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.0625,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.25,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.0625,
+                "shoulder-length": 0.3
+            },
+            "guid": "7cb5425d-60ec-465a-8993-b4fb10fb1eb8",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 103,
+                "length-offset": 103,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 103,
+                "turret": 0
+            },
+            "product-id": "112",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 0.0625,
+                        "upper-diameter": 0.125
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0012,
+                        "f_z": 0.001,
+                        "guid": "d92e2b06-4398-cc13-3d91-6ab3aabd38ff",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 163.62461737446836,
+                        "v_f": 20,
+                        "v_f_leadIn": 20,
+                        "v_f_leadOut": 20,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 20
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "#121 - 1/32\" Ballnose",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.03125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.0625,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.03125,
+                "shoulder-length": 0.08
+            },
+            "guid": "4f3aae8f-b0cf-4ad6-bd65-433e89d1c31c",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 104,
+                "length-offset": 104,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 104,
+                "turret": 0
+            },
+            "product-id": "121",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 0.0312,
+                        "upper-diameter": 0.125
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0012,
+                        "f_z": 0.001,
+                        "guid": "98e67dfc-496c-a3da-73ed-c29b7bff933a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 81.8123086872342,
+                        "v_f": 20,
+                        "v_f_leadIn": 15,
+                        "v_f_leadOut": 15,
+                        "v_f_plunge": 12,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 20
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "#122 - 1/32\" Square",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.03125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.0625,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.03125,
+                "shoulder-length": 0.08
+            },
+            "guid": "4934736c-96ee-48e6-8ada-2ef2f2e28695",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 105,
+                "length-offset": 105,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 105,
+                "turret": 0
+            },
+            "product-id": "122",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 0.0312,
+                        "upper-diameter": 0.125
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 8e-04,
+                        "f_z": 6e-04,
+                        "guid": "385ad4d8-4a11-d8b2-e9ee-0e95c7fe4fa4",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 81.8123086872342,
+                        "v_f": 12,
+                        "v_f_leadIn": 10,
+                        "v_f_leadOut": 10,
+                        "v_f_plunge": 8,
+                        "v_f_ramp": 10,
+                        "v_f_transition": 12
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "Carbide 3D"
         }
     ],
     "version": 36
