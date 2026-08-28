@@ -2729,6 +2729,87 @@
             "type": "flat end mill",
             "unit": "inches",
             "vendor": "Carbide 3D"
+        },
+        {
+            "BMC": "hss",
+            "description": "15deg Vbit",
+            "expressions": {
+                "tool_description": "'15deg Vbit'",
+                "tool_diameter": ".25\"",
+                "tool_fluteLength": "19mm",
+                "tool_numberOfFlutes": "3",
+                "tool_overallLength": "50.8mm",
+                "tool_shaftDiameter": "6.35mm",
+                "tool_shoulderLength": "27 mm",
+                "tool_taperAngle": "7.5 degrees",
+                "tool_tipDiameter": ".001 mm",
+                "tool_vendor": "'UXCELL'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 6.35,
+                "HAND": true,
+                "LB": 36,
+                "LCF": 19,
+                "NOF": 3,
+                "OAL": 50.8,
+                "SFDM": 6.35,
+                "TA": 7.5,
+                "assemblyGaugeLength": 36,
+                "shoulder-diameter": 6.35,
+                "shoulder-length": 27,
+                "tip-diameter": 0.001
+            },
+            "guid": "87f4455f-60e0-46fc-b706-7388b296011b",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 6,
+                "length-offset": 6,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 6,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "45\"/min",
+                            "tool_spindleSpeed": "18000 rpm",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.018518518518518517,
+                        "f_z": 0.021166666666666667,
+                        "guid": "f66eaf97-836c-4f29-987b-fae9cecabf7e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 359.08404030531335,
+                        "v_f": 1143,
+                        "v_f_leadIn": 1143,
+                        "v_f_leadOut": 1143,
+                        "v_f_plunge": 333.3333333333333,
+                        "v_f_ramp": 333.3333333333333,
+                        "v_f_transition": 1143
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "millimeters",
+            "vendor": "UXCELL"
         }
     ],
     "version": 36
