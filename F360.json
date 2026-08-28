@@ -1295,6 +1295,7 @@
             "description": "SpeTool W05004 Insert Mini Surfacing & Rabbeting Flycutter 2+2 Flute Design 1-1/4\" Diameter x 1/4\" Shank Router Bit",
             "expressions": {
                 "tool_description": "'SpeTool W05004 Insert Mini Surfacing & Rabbeting Flycutter 2+2 Flute Design 1-1/4\" Diameter x 1/4\" Shank Router Bit'",
+                "tool_number": "255",
                 "tool_productLink": "'https://spetools.com/products/spetool-w05004-spoilboard-surfacing-router-bit-2-2-flute-1-1-4-inch-dia-1-4-shank'"
             },
             "geometry": {
@@ -2737,6 +2738,7 @@
                 "tool_description": "'15deg Vbit'",
                 "tool_diameter": ".25\"",
                 "tool_fluteLength": "19mm",
+                "tool_number": "205",
                 "tool_numberOfFlutes": "3",
                 "tool_overallLength": "50.8mm",
                 "tool_shaftDiameter": "6.35mm",
@@ -2764,11 +2766,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 6,
-                "length-offset": 6,
+                "diameter-offset": 205,
+                "length-offset": 205,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 6,
+                "number": 205,
                 "turret": 0
             },
             "product-id": "",
@@ -2810,6 +2812,369 @@
             "type": "chamfer mill",
             "unit": "millimeters",
             "vendor": "UXCELL"
+        },
+        {
+            "BMC": "carbide",
+            "description": "THE \"DEEP RIPPER\" 1/2\" Hogging Upcut",
+            "expressions": {
+                "tool_bodyLength": "2.85 in",
+                "tool_comment": "'Introducing the \"DEEP RIPPER\" an Extended Length 1/2\" Roughing CNC Router Bit by IDC Woodcraft – Built for Professional CNC woodworkers and CNC routers!   Unlock unprecedented levels of productivity. The \"DEEP RIPPER\" 1/2\" Roughing CNC Router Bit is designed to get into those deep cuts. This is the ultimate tool for serious CNC woodworking and industrial power users who want speed.'",
+                "tool_description": "'THE \"DEEP RIPPER\" 1/2\" Hogging Upcut'",
+                "tool_diameter": "(1/2) in",
+                "tool_fluteLength": "2.75 in",
+                "tool_material": "'carbide'",
+                "tool_number": "254",
+                "tool_numberOfFlutes": "3",
+                "tool_overallLength": "4 in",
+                "tool_productId": "'HE-12-2'",
+                "tool_productLink": "'https://idcwoodcraft.com/HE-12-2'",
+                "tool_shoulderLength": "2.8 in",
+                "tool_unit": "'inches'",
+                "tool_vendor": "'IDC Woodcraft'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.5,
+                "HAND": true,
+                "LB": 2.85,
+                "LCF": 2.75,
+                "NOF": 3,
+                "OAL": 4,
+                "SFDM": 0.5,
+                "assemblyGaugeLength": 2.85,
+                "shoulder-diameter": 0.5,
+                "shoulder-length": 2.8
+            },
+            "guid": "459cc77b-daf0-4c09-9b9f-c94dd24b7529",
+            "post-process": {
+                "break-control": false,
+                "comment": "Introducing the \"DEEP RIPPER\" an Extended Length 1/2\" Roughing CNC Router Bit by IDC Woodcraft – Built for Professional CNC woodworkers and CNC routers!   Unlock unprecedented levels of productivity. The \"DEEP RIPPER\" 1/2\" Roughing CNC Router Bit is designed to get into those deep cuts. This is the ultimate tool for serious CNC woodworking and industrial power users who want speed.",
+                "diameter-offset": 254,
+                "length-offset": 254,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 254,
+                "turret": 0
+            },
+            "product-id": "HE-12-2",
+            "product-link": "https://idcwoodcraft.com/HE-12-2",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "300 inpm",
+                            "tool_feedPlunge": "200 inpm",
+                            "tool_feedRamp": "200 inpm",
+                            "tool_spindleSpeed": "18000 rpm",
+                            "tool_stepdown": "0.5 in",
+                            "tool_stepover": "tool_diameter * 0.6",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.01111111111111111,
+                        "f_z": 0.005555555555555555,
+                        "guid": "ba91f417-1575-401d-ae61-5bc12ad71657",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "stepdown": 0.5,
+                        "stepover": 0.3,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 2356.194490192345,
+                        "v_f": 300,
+                        "v_f_leadIn": 300,
+                        "v_f_leadOut": 300,
+                        "v_f_plunge": 200,
+                        "v_f_ramp": 200,
+                        "v_f_transition": 300
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "IDC Woodcraft"
+        },
+        {
+            "BMC": "unspecified",
+            "description": "SpeTool W05002 CNC Spoilboard Insert Carbide 3 Wing, Surfacing, Planing, Flycutting & Slab Leveler 2\" Diameter x 1/2\" Shank Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W05002 CNC Spoilboard Insert Carbide 3 Wing, Surfacing, Planing, Flycutting & Slab Leveler 2\" Diameter x 1/2\" Shank Router Bit'",
+                "tool_number": "260",
+                "tool_productLink": "'https://spetools.com/products/spetool-w05002-spoilboard-surfacing-router-bit-3-flute-2-inch-dia-1-2-shank'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 2,
+                "DCX": 2,
+                "HAND": true,
+                "LB": 2.75,
+                "LCF": 0.47244094488189,
+                "NOF": 3,
+                "OAL": 3.75,
+                "RE": 0,
+                "SFDM": 0.5,
+                "TA": 0,
+                "assemblyGaugeLength": 2.75,
+                "shoulder-diameter": 2,
+                "shoulder-length": 1,
+                "upper-radius": 0
+            },
+            "guid": "f5df19ef-9fac-44d9-931f-fb49bc2dfe93",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 260,
+                "length-offset": 260,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 260,
+                "turret": 0
+            },
+            "product-id": "W05002",
+            "product-link": "https://spetools.com/products/spetool-w05002-spoilboard-surfacing-router-bit-3-flute-2-inch-dia-1-2-shank",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.0027777777777777775,
+                        "f_z": 0.0027777777777777775,
+                        "guid": "df6579cd-975d-4992-81de-d720c77260f8",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 8000.000000000003,
+                        "name": "MDF/LIMINATE",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0787,
+                        "stepover": 1.6,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 9424.77796076938,
+                        "v_f": 150,
+                        "v_f_leadIn": 150,
+                        "v_f_leadOut": 150,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 150
+                    },
+                    {
+                        "f_n": 0.0024074055555555556,
+                        "f_z": 0.0024074074074074076,
+                        "guid": "60f043da-fa57-4016-b8eb-686563adc172",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 8000.000000000003,
+                        "name": "SOFTWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0787,
+                        "stepover": 1.6,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 9424.77796076938,
+                        "v_f": 130,
+                        "v_f_leadIn": 130,
+                        "v_f_leadOut": 130,
+                        "v_f_plunge": 43.3333,
+                        "v_f_ramp": 43.3333,
+                        "v_f_transition": 130
+                    },
+                    {
+                        "f_n": 0.00185185,
+                        "f_z": 0.0018518518518518517,
+                        "guid": "f31a47f0-7f10-46f7-b8c3-76e1afccaa5e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 8000.000000000003,
+                        "name": "HARDWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0787,
+                        "stepover": 1.6,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 9424.77796076938,
+                        "v_f": 100,
+                        "v_f_leadIn": 100,
+                        "v_f_leadOut": 100,
+                        "v_f_plunge": 33.3333,
+                        "v_f_ramp": 33.3333,
+                        "v_f_transition": 100
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
+        },
+        {
+            "BMC": "unspecified",
+            "description": "SpeTool W05010 Insert Surfacing & Rabbeting Flycutter 2+2 Flute Design 3\" Diameter x 1/2\" Shank Router Bit",
+            "expressions": {
+                "tool_description": "'SpeTool W05010 Insert Surfacing & Rabbeting Flycutter 2+2 Flute Design 3\" Diameter x 1/2\" Shank Router Bit'",
+                "tool_diameter": "3 in",
+                "tool_fluteLength": "12mm",
+                "tool_number": "265",
+                "tool_overallLength": "2.833333 in",
+                "tool_productId": "'W05010'",
+                "tool_productLink": "'https://spetools.com/products/spetool-w05010-spoilboard-surfacing-router-bit-2-2-flute-3-inch-dia-1-2-shank'",
+                "tool_shaftDiameter": "0.5 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "DCX": 3,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.4724409448818898,
+                "NOF": 2,
+                "OAL": 2.833333,
+                "RE": 0,
+                "SFDM": 0.5,
+                "TA": 0,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 3,
+                "shoulder-length": 0.590551181102362,
+                "upper-radius": 0
+            },
+            "guid": "161e3ee9-d747-46fd-a825-88b69e0e2c8d",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 265,
+                "length-offset": 265,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 265,
+                "turret": 0
+            },
+            "product-id": "W05010",
+            "product-link": "https://spetools.com/products/spetool-w05010-spoilboard-surfacing-router-bit-2-2-flute-3-inch-dia-1-2-shank",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "200 inpm",
+                            "tool_feedRamp": "(200/3) inpm",
+                            "tool_spindleSpeed": "15000 rpm",
+                            "tool_stepover": "2.4 in"
+                        },
+                        "f_n": 0.00444444,
+                        "f_z": 0.006666666666666666,
+                        "guid": "a8f8d941-fd62-4475-b77f-c4ba2d312c3e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 15000,
+                        "n_ramp": 15000,
+                        "name": "MDF/LIMINATE",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0787,
+                        "stepover": 2.4,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 11780.97245096172,
+                        "v_f": 200,
+                        "v_f_leadIn": 200,
+                        "v_f_leadOut": 200,
+                        "v_f_plunge": 66.6666,
+                        "v_f_ramp": 66.66666666666667,
+                        "v_f_transition": 200
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "180 inpm",
+                            "tool_feedPlunge": "60 inpm",
+                            "tool_feedRamp": "60 inpm",
+                            "tool_spindleSpeed": "15000 rpm",
+                            "tool_stepover": "2.4 in"
+                        },
+                        "f_n": 0.004,
+                        "f_z": 0.006,
+                        "guid": "c6c191d0-91ad-42c8-81b4-e9c9d78c7305",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 15000,
+                        "n_ramp": 15000,
+                        "name": "SOFTWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0787,
+                        "stepover": 2.4,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 11780.97245096172,
+                        "v_f": 180,
+                        "v_f_leadIn": 180,
+                        "v_f_leadOut": 180,
+                        "v_f_plunge": 60,
+                        "v_f_ramp": 60,
+                        "v_f_transition": 180
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "140 inpm",
+                            "tool_feedPlunge": "(140/3) inpm",
+                            "tool_feedRamp": "(140/3) inpm",
+                            "tool_spindleSpeed": "15000 rpm",
+                            "tool_stepover": "2.4 in"
+                        },
+                        "f_n": 0.0031111111111111114,
+                        "f_z": 0.004666666666666666,
+                        "guid": "c9607ee3-1d8f-43c3-8ddc-526d5d4a0d3e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 15000,
+                        "n_ramp": 15000,
+                        "name": "HARDWOOD",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0787,
+                        "stepover": 2.4,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 11780.97245096172,
+                        "v_f": 140,
+                        "v_f_leadIn": 140,
+                        "v_f_leadOut": 140,
+                        "v_f_plunge": 46.66666666666667,
+                        "v_f_ramp": 46.66666666666667,
+                        "v_f_transition": 140
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "inches",
+            "vendor": "SpeTool"
         }
     ],
     "version": 36
