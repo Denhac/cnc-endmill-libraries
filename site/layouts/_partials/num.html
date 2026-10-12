@@ -1,0 +1,5 @@
+{{/* Formats a number with up to 4 decimal places and no trailing zeros. */}}
+{{ $s := printf "%.4f" (float .) }}
+{{ $s = strings.TrimRight "0" $s | strings.TrimRight "." }}
+{{ if eq $s "-0" }}{{ $s = "0" }}{{ end }}
+{{ return $s }}

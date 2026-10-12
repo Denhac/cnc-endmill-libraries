@@ -1,0 +1,6 @@
+{{/* Returns the tool from data/F360.json whose guid matches the context string. */}}
+{{ $tool := dict }}
+{{ range where site.Data.F360.data "guid" . }}
+  {{ $tool = . }}
+{{ end }}
+{{ return $tool }}

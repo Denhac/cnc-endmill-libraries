@@ -1,0 +1,10 @@
+{{/*
+  Renders a length in the tool's native unit with the converted value alongside.
+  Context: dict "v" (number) "unit" ("inches" or "millimeters").
+*/}}
+{{ $v := float .v }}
+{{ if eq .unit "millimeters" -}}
+  {{ partial "num.html" $v }} mm <span class="alt">{{ partial "num.html" (div $v 25.4) }}"</span>
+{{- else -}}
+  {{ partial "fraction.html" $v }} <span class="alt">{{ partial "num.html" (mul $v 25.4) }} mm</span>
+{{- end }}

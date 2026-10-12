@@ -1,0 +1,13 @@
+{{/* Generate one page per tool in the Fusion 360 tool library (data/F360.json). */}}
+{{ range site.Data.F360.data }}
+  {{ $number := index . "post-process" "number" }}
+  {{ $productID := index . "product-id" | default (substr .guid 0 8) }}
+  {{ $page := dict
+    "kind" "page"
+    "path" (printf "%d-%s" (int $number) ($productID | urlize))
+    "title" .description
+    "weight" (int $number)
+    "params" (dict "guid" .guid)
+  }}
+  {{ $.AddPage $page }}
+{{ end }}
