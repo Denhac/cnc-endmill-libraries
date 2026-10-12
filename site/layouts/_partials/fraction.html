@@ -1,0 +1,27 @@
+{{/*
+  Formats an inch value as a shop fraction (e.g. 1.25 => 1-1/4") using
+  denominators up to 1/64. Falls back to a decimal when it isn't close to one.
+*/}}
+{{ $v := float . }}
+{{ $result := printf "%s\"" (partial "num.html" $v) }}
+{{ $found := false }}
+{{ range slice 1 2 4 8 16 32 64 }}
+  {{ if not $found }}
+    {{ $scaled := mul $v . }}
+    {{ $n := math.Round $scaled }}
+    {{ if lt (math.Abs (sub $scaled $n)) 0.001 }}
+      {{ $found = true }}
+      {{ $n = int $n }}
+      {{ $whole := div $n . }}
+      {{ $rem := mod $n . }}
+      {{ if eq $rem 0 }}
+        {{ $result = printf "%d\"" $whole }}
+      {{ else if eq $whole 0 }}
+        {{ $result = printf "%d/%d\"" $rem . }}
+      {{ else }}
+        {{ $result = printf "%d-%d/%d\"" $whole $rem . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $result }}

@@ -1,0 +1,61 @@
+{{ define "main" }}
+{{ $pages := (site.GetPage "/tools").RegularPages.ByWeight }}
+{{ $types := slice }}
+{{ range site.Data.F360.data }}{{ $types = $types | append .type }}{{ end }}
+{{ $types = $types | uniq | sort }}
+
+<section class="intro">
+  <h1>Endmills</h1>
+  <p>{{ len $pages }} tools in the Denhac CNC tool library. Select a tool for its geometry and feeds &amp; speeds presets.</p>
+</section>
+
+<div class="controls">
+  <input id="search" type="search" placeholder="Search tools…" aria-label="Search tools">
+  <select id="type-filter" aria-label="Filter by type">
+    <option value="">All types</option>
+    {{ range $types }}<option value="{{ . }}">{{ . | title }}</option>{{ end }}
+  </select>
+  <span id="count" class="count" aria-live="polite"></span>
+</div>
+
+<div class="table-wrap">
+<table id="tools" class="tools">
+  <thead>
+    <tr>
+      <th data-sort="num" aria-sort="ascending"><button type="button">#</button></th>
+      <th data-sort="text"><button type="button">Type</button></th>
+      <th data-sort="num"><button type="button">Diameter</button></th>
+      <th data-sort="num"><button type="button">Flutes</button></th>
+      <th data-sort="num" class="hide-sm"><button type="button">Flute length</button></th>
+      <th data-sort="text" class="hide-sm"><button type="button">Vendor</button></th>
+      <th data-sort="text" class="hide-sm"><button type="button">Description</button></th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ range $pages }}
+    {{ $t := partial "tool.html" .Params.guid }}
+    {{ $g := $t.geometry }}
+    {{ $mm := cond (eq $t.unit "millimeters") 1.0 25.4 }}
+    <tr data-type="{{ $t.type }}" data-href="{{ .RelPermalink }}">
+      <td data-value="{{ index $t "post-process" "number" }}" class="num">
+        <a href="{{ .RelPermalink }}">T{{ index $t "post-process" "number" }}</a>
+      </td>
+      <td data-value="{{ $t.type }}"><span class="badge badge-{{ $t.type | urlize }}">{{ $t.type }}</span></td>
+      <td data-value="{{ mul $g.DC $mm }}" class="dim">{{ partial "length.html" (dict "v" $g.DC "unit" $t.unit) }}</td>
+      <td data-value="{{ $g.NOF }}" class="num">{{ $g.NOF }}</td>
+      <td data-value="{{ mul $g.LCF $mm }}" class="dim hide-sm">{{ partial "length.html" (dict "v" $g.LCF "unit" $t.unit) }}</td>
+      <td data-value="{{ $t.vendor }}" class="hide-sm">{{ $t.vendor }}{{ with index $t "product-id" }} <span class="alt">{{ . }}</span>{{ end }}</td>
+      <td data-value="{{ $t.description }}" class="desc hide-sm"><a href="{{ .RelPermalink }}">{{ $t.description }}</a></td>
+    </tr>
+  {{ end }}
+  </tbody>
+</table>
+</div>
+<p id="empty" class="empty" hidden>No tools match your search.</p>
+{{ end }}
+
+{{ define "scripts" }}
+{{ with resources.Get "js/tools.js" | js.Build (dict "minify" true) | fingerprint -}}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+{{- end }}
+{{ end }}

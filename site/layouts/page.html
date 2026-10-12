@@ -1,0 +1,111 @@
+{{ define "main" }}
+{{ $t := partial "tool.html" .Params.guid }}
+{{ $g := $t.geometry }}
+{{ $unit := $t.unit }}
+{{ $isMM := eq $unit "millimeters" }}
+{{ $len := cond $isMM "mm" "in" }}
+{{ $feed := cond $isMM "mm/min" "in/min" }}
+{{ $surface := cond $isMM "m/min" "ft/min" }}
+
+<nav class="crumbs"><a href="{{ site.Home.RelPermalink }}">← All tools</a></nav>
+
+<article class="tool">
+  <header class="tool-header">
+    <div class="tool-number">T{{ index $t "post-process" "number" }}</div>
+    <div>
+      <span class="badge badge-{{ $t.type | urlize }}">{{ $t.type }}</span>
+      <h1>{{ $t.description }}</h1>
+      <p class="meta">
+        {{ $t.vendor }}{{ with index $t "product-id" }} · {{ . }}{{ end }}
+        {{ with index $t "product-link" }} · <a href="{{ . }}" rel="noopener">Product page ↗</a>{{ end }}
+      </p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Geometry</h2>
+    {{ $rows := slice
+      (dict "key" "DC" "label" "Cutting diameter")
+      (dict "key" "NOF" "label" "Flutes" "count" true)
+      (dict "key" "LCF" "label" "Flute length")
+      (dict "key" "LB" "label" "Body length (below holder)")
+      (dict "key" "OAL" "label" "Overall length")
+      (dict "key" "SFDM" "label" "Shank diameter")
+      (dict "key" "shoulder-length" "label" "Shoulder length")
+      (dict "key" "RE" "label" "Corner radius")
+      (dict "key" "tip-diameter" "label" "Tip diameter")
+      (dict "key" "TA" "label" "Taper angle" "angle" true)
+    }}
+    <dl class="specs">
+      {{ range $rows }}
+        {{ $v := index $g .key }}
+        {{ if and (ne $v nil) (or (not .angle) (ne (float $v) 0.0)) (or (ne .key "RE") (ne (float $v) 0.0)) }}
+          <div>
+            <dt>{{ .label }}</dt>
+            <dd>
+              {{ if .count }}{{ $v }}
+              {{ else if .angle }}{{ partial "num.html" $v }}°
+              {{ else }}{{ partial "length.html" (dict "v" $v "unit" $unit) }}{{ end }}
+            </dd>
+          </div>
+        {{ end }}
+      {{ end }}
+      <div><dt>Material</dt><dd>{{ $t.BMC | title }}{{ with $t.GRADE }} ({{ . }}){{ end }}</dd></div>
+      <div><dt>Rotation</dt><dd>{{ if $g.HAND }}Right-hand{{ else }}Left-hand{{ end }}</dd></div>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Feeds &amp; speeds</h2>
+    {{ $presets := index $t "start-values" "presets" }}
+    {{ if $presets }}
+    <div class="table-wrap">
+    <table class="presets">
+      <thead>
+        <tr>
+          <th>Preset</th>
+          <th>Spindle<br><small>RPM</small></th>
+          <th>Cutting feed<br><small>{{ $feed }}</small></th>
+          <th>Plunge feed<br><small>{{ $feed }}</small></th>
+          <th>Ramp feed<br><small>{{ $feed }}</small></th>
+          <th>Chip load<br><small>{{ $len }}/tooth</small></th>
+          <th>Stepdown<br><small>{{ $len }}</small></th>
+          <th>Stepover<br><small>{{ $len }}</small></th>
+          <th>Surface speed<br><small>{{ $surface }}</small></th>
+          <th>Ramp angle</th>
+        </tr>
+      </thead>
+      <tbody>
+      {{ range $presets }}
+        <tr>
+          <th scope="row">
+            {{ .name }}
+            {{ with .description }}<div class="alt">{{ . }}</div>{{ end }}
+          </th>
+          <td>{{ partial "num.html" .n | int | lang.FormatNumber 0 }}</td>
+          <td>{{ partial "num.html" .v_f }}</td>
+          <td>{{ partial "num.html" .v_f_plunge }}</td>
+          <td>{{ partial "num.html" .v_f_ramp }}</td>
+          <td>{{ partial "num.html" .f_z }}</td>
+          <td>{{ if and (index . "use-stepdown") .stepdown }}{{ partial "num.html" .stepdown }}{{ else }}—{{ end }}</td>
+          <td>{{ if and (index . "use-stepover") .stepover }}{{ partial "num.html" .stepover }}{{ else }}—{{ end }}</td>
+          <td>{{ partial "num.html" .v_c | float | math.Round | lang.FormatNumber 0 }}</td>
+          <td>{{ partial "num.html" (index . "ramp-angle") }}°</td>
+        </tr>
+      {{ end }}
+      </tbody>
+    </table>
+    </div>
+    {{ else }}
+    <p>No presets defined for this tool.</p>
+    {{ end }}
+  </section>
+
+  <section class="tool-footer">
+    <p class="alt">
+      Fusion 360 tool GUID <code>{{ $t.guid }}</code> ·
+      <a href="{{ site.Params.sourceFile }}">Source library</a>
+    </p>
+  </section>
+</article>
+{{ end }}

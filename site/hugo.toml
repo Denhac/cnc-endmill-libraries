@@ -1,0 +1,25 @@
+baseURL = "https://denhac.github.io/cnc-endmill-libraries/"
+languageCode = "en-us"
+title = "Denhac CNC Endmills"
+disableKinds = ["taxonomy", "term", "rss", "sitemap"]
+
+[params]
+  description = "Endmills available on Denhac's CNC router, with geometry and feeds & speeds."
+  sourceRepo = "https://github.com/Denhac/cnc-endmill-libraries"
+  sourceFile = "https://github.com/Denhac/cnc-endmill-libraries/blob/main/F360.json"
+
+# Read the tool library from the repository root rather than keeping a copy.
+[[module.mounts]]
+  source = "../F360.json"
+  target = "data/F360.json"
+
+# Explicit mounts replace the defaults, so re-add the site's own directories.
+[[module.mounts]]
+  source = "content"
+  target = "content"
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "assets"
+  target = "assets"

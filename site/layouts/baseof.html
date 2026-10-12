@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ site.Params.description }}">
+  {{ with resources.Get "css/main.css" | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{- end }}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ site.Home.RelPermalink }}">
+        <span class="brand-mark" aria-hidden="true">⌀</span> Denhac CNC Endmills
+      </a>
+    </div>
+  </header>
+  <main class="wrap">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      Data from <a href="{{ site.Params.sourceRepo }}">Denhac/cnc-endmill-libraries</a>
+      (Fusion 360 tool library, v{{ site.Data.F360.version }}).
+      Always verify feeds &amp; speeds before cutting.
+    </div>
+  </footer>
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>

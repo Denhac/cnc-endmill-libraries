@@ -1,0 +1,78 @@
+name: Endmill site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - F360.json
+      - site/**
+      - .github/workflows/site.yml
+  # Build pull requests too, so a broken F360.json is caught before merge.
+  pull_request:
+    paths:
+      - F360.json
+      - site/**
+      - .github/workflows/site.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.155.2
+    steps:
+      - name: Install Hugo
+        run: |
+          curl -fsSL -o ${{ runner.temp }}/hugo.deb \
+            https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate F360.json
+        run: jq -e '.data | length > 0' F360.json > /dev/null
+
+      - name: Setup Pages
+        id: pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Build with Hugo
+        working-directory: site
+        env:
+          HUGO_ENVIRONMENT: production
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          hugo --gc --minify ${BASE_URL:+--baseURL "$BASE_URL/"}
+
+      - name: Upload artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/public
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
